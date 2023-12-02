@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
   font-style: normal;
@@ -36,7 +36,7 @@ ol {
 
 .container {
   display: flex;
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -158,7 +158,7 @@ ol {
   background-color: #404bbf;
 }
 
-.section-item .benefits-section {
+.benefits-section .section-item {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -166,7 +166,7 @@ ol {
   letter-spacing: 0.4px;
 }
 
-.section-text .benefits-section  {
+.benefits-section .section-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -246,7 +246,16 @@ ol {
   display: flex;
   flex-wrap: wrap;
   width: calc((100%-2 * 24px) / 3);
+  column-gap: 24px;
+  row-gap: 48px;
 }
+
+.app-description-wrapper {
+  padding: 32px 16px; 
+  border: 1px solid #e7e9fc; 
+  border-top: none;}
+
+  .portfolio-section .section-item {margin-bottom: 8px;}
 
 .footer {
   background-color: #2e2f42;
@@ -254,7 +263,7 @@ ol {
   padding-bottom: 100px;
 }
 
-.footer .logo {margin-bottom: 17px;}
+.footer .logo {display: inline-block; margin-bottom: 17px;}
 
 .logo-white {
   color: #f4f4fd;
