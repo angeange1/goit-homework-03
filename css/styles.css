@@ -266,7 +266,7 @@ ol {
   row-gap: 48px;
 }
 
-.portfolio-list-card {
+.portfolio-list-pic {
   width: calc((100% - 48px) / 3);
 }
 
