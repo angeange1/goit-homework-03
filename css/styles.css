@@ -80,7 +80,8 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-item:hover {
@@ -285,13 +286,13 @@ ol {
   padding-bottom: 100px;
 }
 
+.logo-white {
+  color: #f4f4fd;
+}
+
 .footer .logo {
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.logo-white {
-  color: #f4f4fd;
 }
 
 .footer-text {
